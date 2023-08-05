@@ -1,0 +1,617 @@
+* {
+    font-family: Poppins;
+}
+
+.p-2-5 {
+    padding: 9px !important;
+}
+
+.fs-7 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.bg-yellow {
+    background-color: rgb(255, 217, 0);
+}
+
+.mt-10 {
+    margin-top: 9em;
+}
+
+.p-2-9 {
+    padding: 10px;
+}
+
+.shadow-purple {
+    box-shadow: 0 .5rem 1rem rgb(224, 192, 255) !important;
+}
+
+.ms-10 {
+    margin-left: 100px !important;
+}
+
+.me-10 {
+    margin-right: 100px !important;
+}
+
+.mt {
+    margin-top: 170px !important;
+}
+
+.yellow {
+    color: rgb(255, 213, 0) !important;
+}
+
+.border-6 {
+    border: 7px solid rgb(224, 77, 126) !important;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
+
+.border-6-2 {
+    border: 7px solid;
+}
+
+
+
+
+
+
+
+
+/* navbar */
+
+.nav-logostick {
+    color: rgb(238, 236, 236);
+    font-size: 30px;
+    font-weight: 10;
+}
+
+.text-grey {
+    color: rgb(166, 166, 166) !important;
+}
+
+.form-control {
+    padding: 0 0 0 0 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.form-control:focus {
+    border-color: 0px #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.bg-purple {
+    background-color: blueviolet;
+}
+
+.text-bg-pink {
+    color: white !important;
+    background-color: rgb(224, 77, 126);
+}
+
+
+
+/* hero */
+
+
+.card-1 {
+    background-image: url(Images/big-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 320px !important;
+    width: 300px;
+}
+
+.card-2 {
+    background-image: url(Images/static-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 320px !important;
+    width: 300px;
+}
+
+.rounded-top-right {
+    border-top-right-radius: 50%;
+}
+
+.bi-heart-fill {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.rotate-minus {
+    transform: rotate(-20deg);
+}
+
+.rotate {
+    transform: rotate(8deg);
+}
+
+
+/* discover */
+
+
+.discover-logostick {
+    font-size: 200px;
+    font-weight: 0 !important;
+    width: 10px;
+    color: rgba(255, 255, 255, 0.479);
+
+}
+
+.rounded-top-left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.rounded-top-bottom-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.col-hover {
+    color: #86b7fe !important;
+}
+
+.hover :hover {
+    color: #4885e1 !important;
+}
+
+/* Arts Work */
+
+.btn-change {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    float:left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #000;
+}
+
+.btn-change:hover {
+    -webkit-transform: scale(1.1);
+    background: #06013a;
+    color: #fff;
+}
+.btn-change2 {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    float:left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #000;
+}
+
+.btn-change2:hover {
+    -webkit-transform: scale(1.1);
+    background: #06013a;
+    color: #fff;
+}
+.btn-change3 {
+    height: 50px;
+    width: 120px;
+    margin: 20px;
+    float:left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #000;
+}
+
+.btn-change3:hover {
+    -webkit-transform: scale(1.1);
+    background: #06013a;
+    color: #fff;
+}
+.btn-change4 {
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    float:left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #000;
+}
+
+.btn-change4:hover {
+    -webkit-transform: scale(1.1);
+    background: #06013a;
+    color: #fff;
+}
+.btn-change5 {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    float:left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #000;
+}
+
+.btn-change5:hover {
+    -webkit-transform: scale(1.1);
+    background: #06013a;
+    color: #fff;
+}
+
+.mt-card{
+    margin-top: 10%;
+}
+
+
+/* atist List */
+
+.btn-change6 {
+    height: 50px;
+    width: 130px;
+    margin: 20px;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #000;
+}
+
+.btn-change6:hover {
+    -webkit-transform: scale(1.1);
+    background: #06013a;
+    color: #fff;
+}
+
+.btn-change7 {
+    height: 50px;
+    width: 110px;
+    margin: 20px;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #000;
+}
+
+.btn-change7:hover {
+    -webkit-transform: scale(1.1);
+    background: #06013a;
+    color: #fff;
+}
+
+
+/* Update */
+
+.card-3{
+    background-image: url(Images/static-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 320px !important;
+    width: 300px;
+}
+
+.card-4{
+    background-image: url(Images/static-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 320px !important;
+    width: 300px;
+}
+
+.border-6-3{
+    border: 7px solid rgb(207, 207, 207) !important;
+}
+
+.border-6-4{
+    border: 7px solid rgb(75, 88, 110)!important;
+}
+
+.text-bg-grey{
+    background-color: rgb(207, 207, 207) !important;
+}
+
+.text-bg-blue{
+    background-color: rgb(75, 88, 110)!important;
+}
+
+.rotate-2{
+    transform: rotate(10deg);
+}
+
+.rotate-minus2{
+    transform: rotate(-10deg);
+}
+
+.btn-height{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .col6-1 {
+        position: relative;
+    }
+
+    .col6-2 {
+        position: relative;
+    }
+
+    .col6-3 {
+        position: relative;
+    }
+
+    .col6-4 {
+        position: relative;
+    }
+
+    .postion-card1 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .position-card2 {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+    }
+
+    .mt-20 {
+        margin-top: 30em;
+    }
+
+    .fs-sm {
+        font-size: 13px !important;
+    }
+
+    .fs-sm-text {
+        font-size: 9px !important;
+    }
+
+    .position-Art-card{
+        position: absolute;
+        top: 51%;
+    }
+
+    .mt-card{
+        margin-top: 20%;
+    }
+    .card-artisit{
+        position: absolute;
+        top: 34%;
+        left: 40%;
+    }
+    
+    .btn-width{
+        width: 70%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .col6-1 {
+        position: relative;
+    }
+
+    .col6-2 {
+        position: relative;
+    }
+
+    .col6-3 {
+        position: relative;
+    }
+
+    .col6-4 {
+        position: relative;
+    }
+
+    .postion-card1 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .position-card2 {
+        position: absolute;
+        top: 10px;
+        right: 100px;
+    }
+
+    .mt-20 {
+        margin-top: 30em;
+    }
+
+    .fs-sm {
+        font-size: 15px !important;
+    }
+
+    .fs-sm-text {
+        font-size: 12px !important;
+    }
+    .position-Art-card{
+        position: absolute;
+        top: 64%;
+    }
+    .mt-card{
+        margin-top: 20%;
+    }
+    .card-artisit{
+        position: absolute;
+        top: 47%;
+        left: 42%;
+    }
+    .btn-width{
+        width: 50%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .col6-1 {
+        position: relative;
+    }
+
+    .col6-2 {
+        position: relative;
+    }
+    .col6-3 {
+        position: relative;
+    }
+
+    .col6-4 {
+        position: relative;
+    }
+
+    .postion-card1 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .position-card2 {
+        position: absolute;
+        right: 60px;
+    }
+    .position-Art-card{
+        position: absolute;
+        top: 62%;
+    }
+    .mt-card{
+        margin-top: 20%;
+    }
+    .card-artisit{
+        position: absolute;
+        top: 30%;
+        left: 35%;
+    }
+    .btn-width{
+        width: 70%;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .col6-1 {
+        position: relative;
+    }
+
+    .col6-2 {
+        position: relative;
+    }
+    .col6-3 {
+        position: relative;
+    }
+
+    .col6-4 {
+        position: relative;
+    }
+
+    .postion-card1 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .position-card2 {
+        position: absolute;
+        right: 10px;
+    }
+    .position-Art-card{
+        position: absolute;
+        top: 67%;
+    }
+    .card-artisit{
+        position: absolute;
+        top: 41%;
+        left: 40%;
+    }
+    .btn-width{
+        width: 50%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .col6-1 {
+        position: relative;
+    }
+
+    .col6-2 {
+        position: relative;
+    }
+    .col6-3 {
+        position: relative;
+    }
+
+    .col6-4 {
+        position: relative;
+    }
+
+    .postion-card1 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .position-card2 {
+        position: absolute;
+        right: 60px;
+    }
+
+    .position-card3{
+        
+    }
+
+    .position-card4{
+        position: absolute;
+        top: 30px;
+        right: 120px;
+    }
+
+    .position-Art-card{
+        position: absolute;
+        top: 70%;
+    }
+    .card-artisit{
+        position: absolute;
+        top: 41%;
+        left: 41%;
+    }
+    .btn-width{
+        width: 50%;
+    }
+    .w-60{
+        width: 340px; 
+    }
+}

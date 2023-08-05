@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheets/bootstrap-icons.css" />
+    <link rel="stylesheet" href="stylesheets/css2.css?family=Poppins&display=swap" />
+    <link rel="stylesheet" href="scripts/bootstrap-icons-1.10.5/font/bootstrap-icons.css ">
+    <link rel="stylesheet" href="scripts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section>
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-2 align-items-center d-flex fw-bold" href="#">LogoHere <span
+                            class="nav-logostick d-none d-lg-block ms-3 align-items-end d-flex">|</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-3 active fw-bold" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-3 fw-bold text-secondary" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-3 fw-bold text-grey" aria-current="page" href="#">Arts</a>
+                            </li>
+                        </ul>
+                        <div class="d-lg-flex flex-row align-items-center">
+                            <div class="me-0  d-none d-lg-block">
+                                <div class="d-flex">
+                                    <form
+                                        class="d-flex me-3 border border-2 align-items-center shadow-sm bg-body rounded-pill">
+                                        <button class="btn pe-2 ps-3" type="submit"><i
+                                                class="fa-solid fa-magnifying-glass"
+                                                style="color: #b6b9bc;"></i></button>
+                                        <input class="form-control pe-0 ps-0 my-2 py-0 border-0 me-2" type="search"
+                                            placeholder="Search" aria-label="Search">
+                                    </form>
+                                    <div
+                                        class="shadow-sm me-1 background-size border border-2 d-flex align-items-center bg-body rounded-circle">
+                                        <a href="">
+                                            <i class="fa-solid p-2-5 fs-5 rounded-circle fa-cart-shopping"
+                                                style="color: #b6b9bc;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-lg-0 mt-3">
+                                <div class="d-flex align-items-center">
+                                    <p class="m-0 me-lg-0 me-3 fw-bold">
+                                        <a href=""
+                                            class="text-dark fw-bold link-offset-2 mx-lg-3 mx-0 link-underline link-underline-opacity-0">Sign
+                                            up</a>
+                                    </p>
+                                    <p
+                                        class="m-0 fw-bold d-flex align-items-center justify-content-center rounded-pill bg-purple">
+                                        <!-- <a href="" class="text-white fw-bold link-offset-2 p-3 link-underline link-underline-opacity-0">Login</a> -->
+                                        <button class="btn text-white fw-bold px-3">
+                                            Login
+                                        </button>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="me-0 mt-3 d-lg-none">
+                                <div class="d-flex">
+                                    <form
+                                        class="d-flex me-3 border border-2 align-items-center shadow-sm bg-body rounded-pill">
+                                        <button class="btn pe-2 ps-3" type="submit"><i
+                                                class="fa-solid fa-magnifying-glass"
+                                                style="color: #b6b9bc;"></i></button>
+                                        <input class="form-control pe-0 ps-0 my-2 py-0 border-0 me-2" type="search"
+                                            placeholder="Search" aria-label="Search">
+                                    </form>
+                                    <div
+                                        class="shadow-sm me-1 background-size border border-2 d-flex align-items-center bg-body rounded-circle">
+                                        <a href="">
+                                            <i class="fa-solid p-2-5 fs-5 rounded-circle fa-cart-shopping"
+                                                style="color: #b6b9bc;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- hero -->
+
+
+    <section class="mt-5">
+        <div class="container-xl">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="">
+                        <p class="fw-bold display-5">Collect ARTVISOR Digital Artwork<i class="bi bi-stars"
+                                style="color: rgb(255, 217, 0);"></i></p>
+                    </div>
+                    <div class="mt-4">
+                        <p class="fs-7 text-wrap w-75">
+                            An authentic work of art must start an argument between the artist and his audience.
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <!-- <p class="align-items-center">
+                            <button class="btn align-items-center d-flex text-dark fw-bold">
+                                Get Started <i class="bi bi-play-circle-fill ms-2"
+                                    style="font-size: 25px; color: rgb(255, 213, 0);"></i>
+                            </button>
+
+                        </p> -->
+                        <div class="col-5 col-sm-4 col-md-5 col-lg-4">
+                            <p
+                                class="m-0 shadow-purple d-flex justify-content-center align-items-center fw-bold rounded-pill bg-purple">
+                                <!-- <a href="" class="text-white fw-bold link-offset-2 p-3 link-underline link-underline-opacity-0">Login</a> -->
+                                <!-- <button
+                                    class="btn d-flex align-items-center justify-content-center  text-white fw-bold px-3">
+                                    Get Started <i class="bi bi-play-circle-fill ms-2"
+                                        style="font-size: 25px; color: rgb(255, 213, 0);"></i>
+                                </button> -->
+                                <button
+                                    class="d-flex border-0 p-2-9 text-white bg-transparent align-items-center fw-bold">
+                                    Get Started
+                                    <p
+                                        class="align-items-center ms-2 shadow-lg bg-yellow justify-content-center mb-0 rounded-circle">
+                                        <i class="fa-solid fa-play p-2 fa-xs" style="color: #ffffff;"></i>
+                                    </p>
+                                </button>
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center col-6">
+                            <button class="d-flex border-0 bg-white align-items-center fw-bold">
+                                <p class="shadow align-items-center me-2 justify-content-center mb-0 rounded-circle">
+                                    <i class="bi fs-3 p-2 bi-play-fill"></i>
+                                </p>
+                                Watch Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <div>
+                            <p class="fw-bold">
+                                Trusted by industry leaders :
+                            </p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="float-start me-5 fs-3"><a class="text-dark" href=""><i
+                                        class="fa-brands fa-google"></i></a></div>
+                            <div class="float-start me-5 fs-3"><a class="text-dark" href=""><i
+                                        class="fa-brands fa-amazon"></i></a></div>
+                            <div class="float-start me-5 fs-3"><a class="text-dark" href=""><i
+                                        class="fa-brands fa-facebook"></i></a></div>
+                            <div class="float-start me-5 fs-3"><a class="text-dark" href=""><i
+                                        class="fa-brands fa-windows"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 row col-md-6">
+                    <div class="col-6 col6-1">
+                        <div class="card-1 postion-card1 rotate-minus border-6 rounded-4">
+                            <div class="row">
+                                <div class="d-flex col-9 ms-2 mt-2 align-items-center">
+                                    <img src="Images/author-1.jpg" height="45px" class="rounded-circle me-2" alt="">
+                                    <div>
+                                        <p class="fw-bold mb-0 text-dark">
+                                            Artist Of NFT
+                                        </p>
+                                        <p class="fs-7 fw-bold text-dark my-0">
+                                            Digital Artist
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-2 mt-3 ms-2 align-items-center">
+                                    <p class="bg-white position-relative p-3 bg-opacity-50 rounded-circle">
+                                        <i class="bi p-0 bi-heart-fill" style="color: red;"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body mt w-75 rounded-top-right text-bg-pink">
+                                <p class="card-text ms-2 fw-bold pt-3 mb-1">Arts Title NFT Here</p>
+                                <p class="card-rating pb-2 ms-2 yellow">
+                                    <i class="bi bi-star-fill yellow"></i> 4.0 <span
+                                        class="text-white ms-5">$40.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col6-2">
+                        <div class="card-2 position-card2 rotate border-6-2 border-success rounded-4">
+                            <div class="row">
+                                <div class="d-flex col-9 ms-2 mt-2 align-items-center">
+                                    <img src="Images/author-3.jpg" height="45px" class="rounded-circle me-2" alt="">
+                                    <div>
+                                        <p class="fw-bold mb-0 text-white">
+                                            Artist Of NFT
+                                        </p>
+                                        <p class="fs-7 fw-bold text-white my-0">
+                                            Digital Artist
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-2 mt-3 ms-2 align-items-center">
+                                    <p class="bg-white position-relative p-3 bg-opacity-50 rounded-circle">
+                                        <i class="bi p-0 bi-heart-fill" style="color: red;"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body mt w-75 rounded-top-right text-bg-success">
+                                <p class="card-text ms-2 fw-bold pt-3 mb-1">Arts Title NFT Here</p>
+                                <p class="card-rating pb-2 ms-2 yellow">
+                                    <i class="bi bi-star-fill yellow"></i> 4.0 <span
+                                        class="text-white ms-5">$40.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- discover -->
+
+    <section class="mt-20 mt-10">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-6 col-sm-3 d-flex hover rounded-top-left mb-4 text-bg-dark">
+                    <div class="ms-2 mt-2">
+                        <p>
+                            <img src="Images/Searchnotbg.png" height="100px" alt="">
+                        </p>
+                        <h4 class="w-75 fs-sm text-wrap fw-bold">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Discover new artists
+                            </a>
+                        </h4>
+                        <p class="mt-4 mb-3 fs-sm-text">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Nisi ad voluptatem minus? </a>
+                        </p>
+                    </div>
+                    <div class="discover-logostick">
+                        |
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 d-flex  text-bg-dark hover mb-4">
+                    <div class="ms-2 mt-2">
+                        <p>
+                            <img src="Images/Searchnotbg.png" height="100px" alt="">
+                        </p>
+                        <h4 class="w-75 fs-sm text-wrap fw-bold">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Discover new artists
+                            </a>
+                        </h4>
+                        <p class="mt-4 mb-3 fs-sm-text">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Nisi ad voluptatem minus? </a>
+                        </p>
+                    </div>
+                    <div class="discover-logostick d-none d-sm-block">
+                        |
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 d-flex  text-bg-dark hover mb-4">
+                    <div class="ms-2 mt-2">
+                        <p>
+                            <img src="Images/Searchnotbg.png" height="100px" alt="">
+                        </p>
+                        <h4 class="w-75 fs-sm text-wrap fw-bold">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Discover new artists
+                            </a>
+                        </h4>
+                        <p class="mt-4 mb-3 fs-sm-text">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Nisi ad voluptatem minus? </a>
+                        </p>
+                    </div>
+                    <div class="discover-logostick">
+                        |
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 d-flex rounded-top-bottom-right text-bg-dark hover mb-4">
+                    <div class="ms-2 mt-2">
+                        <p>
+                            <img src="Images/Searchnotbg.png" height="100px" alt="">
+                        </p>
+                        <h4 class="w-75 fs-sm text-wrap fw-bold">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Discover new artists
+                            </a>
+                        </h4>
+                        <p class="mt-4 mb-3 fs-sm-text">
+                            <a href="" class="link-underline link-underline-opacity-0 text-white"> Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Nisi ad voluptatem minus? </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- artwork -->
+
+    <section class="mt-5">
+        <div class="container-xl">
+            <div class="row">
+                <div class="Top Heading">
+                    <div>
+                        <h2 class="text-center">
+                            <a href="" class="link-underline link-underline-opacity-0 text-dark fw-bold"> Art Works </a>
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="text-center text-secondary fw-bold fs-14">
+                            500+ New Arts Here
+                        </p>
+                    </div>
+                    <div class="d-none justify-content-center">
+                        <!-- <p
+                            class="m-0 shadow-purple justify-content-center align-items-center fw-bold rounded-pill hover-bg-blue">
+                            <button class="border-0 p-2-9 text-dark bg-transparent align-items-center fw-bold">
+                                Get Started
+                            </button>
+                        </p> -->
+                        <!-- <button class="p-3 me-4 rounded-pill btn-hover border-0 fw-bold">
+                            All Arts
+                        </button>
+                        <button class="p-3 rounded-pill border-0 hover-bg-blue fw-bold">
+                            All Arts
+                        </button> -->
+                        <button class="btn-change rounded-pill fw-bold">All Arts</button>
+                        <button class="btn-change2 rounded-pill fw-bold">Popular</button>
+                        <button class="btn-change3 rounded-pill fw-bold">New Artist</button>
+                        <button class="btn-change4 rounded-pill fw-bold">Popular Artist</button>
+                        <button class="btn-change5 rounded-pill fw-bold">Modern</button>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 justify-content-center col-md-8 row">
+                            <div class="col">
+                                <button class="btn btn-secondary btn-sm">
+                                    All Arts
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-secondary btn-sm">
+                                    Popular
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-secondary btn-sm">
+                                    New Artist
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-secondary btn-sm">
+                                    Popular Artist
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-secondary btn-sm">
+                                    Modern
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-5">
+                    <div class="justify-content-center align-items-center row">
+                        <div class="col-6 col-md-4 col-lg-4 mb-4">
+                            <div class="card shadow rounded-3 p-3 border-0">
+                                <img src="Images/static-2.jpg"
+                                    class="card-img-top rounded-3 position-relative img-fluid" alt="...">
+                                <div class="card-body d-flex align-items-end position-Art-card">
+                                    <img src="Images/author-12.jpg" height="50px"
+                                        class="rounded-circle border border-3 border-white ms-2" alt="">
+                                    <h6 class="card-text fw-bold">Sunny <i class="fa-brands fa-ethereum"
+                                            style="color: #ad15c1;"></i></h6>
+                                </div>
+                                <div class="mt-card ms-4">
+                                    <p class="text-secondary fw-bold">
+                                        Price <span class="text-dark">$4.69</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-4 mb-4">
+                            <div class="card shadow rounded-3 p-3 border-0">
+                                <img src="Images/static-1.jpg"
+                                    class="card-img-top rounded-3 position-relative img-fluid" alt="...">
+                                <div class="card-body d-flex align-items-end position-Art-card">
+                                    <img src="Images/author-4.jpg" height="50px"
+                                        class="rounded-circle border border-3 border-white ms-2" alt="">
+                                    <h6 class="card-text fw-bold">Lori Hart <i class="fa-brands fa-ethereum"
+                                            style="color: #ad15c1;"></i></h6>
+                                </div>
+                                <div class="mt-card ms-4">
+                                    <p class="text-secondary fw-bold">
+                                        Price <span class="text-dark">$4.69</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-4 mb-4">
+                            <div class="card shadow rounded-3 p-3 border-0">
+                                <img src="Images/static-3.jpg"
+                                    class="card-img-top rounded-3 position-relative img-fluid" alt="...">
+                                <div class="card-body d-flex align-items-end position-Art-card">
+                                    <img src="Images/author-10.jpg" height="50px"
+                                        class="rounded-circle border border-3 border-white ms-2" alt="">
+                                    <h6 class="card-text fw-bold">Monica <i class="fa-brands fa-ethereum"
+                                            style="color: #ad15c1;"></i></h6>
+                                </div>
+                                <div class="mt-card ms-4">
+                                    <p class="text-secondary fw-bold">
+                                        Price <span class="text-dark">$4.69</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-4 mb-4">
+                            <div class="card shadow rounded-3 p-3 border-0">
+                                <img src="Images/static-4.jpg"
+                                    class="card-img-top rounded-3 position-relative img-fluid" alt="...">
+                                <div class="card-body d-flex align-items-end position-Art-card">
+                                    <img src="Images/author-11.jpg" height="50px"
+                                        class="rounded-circle border border-3 border-white ms-2" alt="">
+                                    <h6 class="card-text fw-bold">Stacy <i class="fa-brands fa-ethereum"
+                                            style="color: #ad15c1;"></i></h6>
+                                </div>
+                                <div class="mt-card ms-4">
+                                    <p class="text-secondary fw-bold">
+                                        Price <span class="text-dark">$4.69</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-4 mb-4">
+                            <div class="card shadow rounded-3 p-3 border-0">
+                                <img src="Images/static-5.jpg"
+                                    class="card-img-top rounded-3 position-relative img-fluid" alt="...">
+                                <div class="card-body d-flex align-items-end position-Art-card">
+                                    <img src="Images/author-5.jpg" height="50px"
+                                        class="rounded-circle border border-3 border-white ms-2" alt="">
+                                    <h6 class="card-text fw-bold">Jimmy <i class="fa-brands fa-ethereum"
+                                            style="color: #ad15c1;"></i>
+                                    </h6>
+                                </div>
+                                <div class="mt-card ms-4">
+                                    <p class="text-secondary fw-bold">
+                                        Price <span class="text-dark">$4.69</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-4 mb-4">
+                            <div class="card shadow rounded-3 p-3 border-0">
+                                <img src="Images/static-6.jpg"
+                                    class="card-img-top rounded-3 position-relative img-fluid" alt="...">
+                                <div class="card-body d-flex align-items-end position-Art-card">
+                                    <img src="Images/author-8.jpg" height="50px"
+                                        class="rounded-circle border border-3 border-white ms-2" alt="">
+                                    <h6 class="card-text fw-bold">Clauda <i class="fa-brands fa-ethereum"
+                                            style="color: #ad15c1;"></i>
+                                    </h6>
+                                </div>
+                                <div class="mt-card ms-4">
+                                    <p class="text-secondary fw-bold">
+                                        Price <span class="text-dark">$4.69</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- artist -->
+
+    <section class="mt-5">
+        <div class="container-xl">
+            <!-- heading -->
+            <div class="text-center mb-4">
+                <h2 class="text-center">
+                    <a href="" class="link-underline link-underline-opacity-0 text-dark fw-bold"> Artist List </a>
+                </h2>
+                <div class="button">
+                    <button class="btn-change6 rounded-pill fw-bold">Popular Artist</button>
+                    <button class="btn-change7 rounded-pill fw-bold">New Artist</button>
+                </div>
+            </div>
+            <!-- main card -->
+            <div class="row">
+                <div class="col-6 mb-4 col-md-3">
+                    <div>
+                        <div class="card border-0 shadow rounded-4">
+                            <img src="Images/bg-4.jpg" class="card-img-top p-2 position-relative rounded-4" alt="...">
+                            <img src="Images/author-1.jpg" height="50px"
+                                class="card-artisit border border-2 border-white rounded-circle" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mb-2 fw-bold">John Wick</h5>
+                                <p class="text-secondary mb-2 fw-bold fs-14">100+ Arts</p>
+                                <button class="bg-purple btn-width fw-bold text-white rounded-pill p-2 border-0">
+                                    Follow +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4 col-md-3">
+                    <div>
+                        <div class="card border-0 shadow rounded-4">
+                            <img src="Images/bg-2.jpg" class="card-img-top p-2 position-relative rounded-4" alt="...">
+                            <img src="Images/author-2.jpg" height="50px"
+                                class="card-artisit border border-2 border-white rounded-circle" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mb-2 fw-bold">Monica</h5>
+                                <p class="text-secondary mb-2 fw-bold fs-14">100+ Arts</p>
+                                <button class="bg-purple btn-width fw-bold text-white rounded-pill p-2 border-0">
+                                    Follow +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4 col-md-3">
+                    <div>
+                        <div class="card border-0 shadow rounded-4">
+                            <img src="Images/bg-3.jpg" class="card-img-top p-2 position-relative rounded-4" alt="...">
+                            <img src="Images/author-3.jpg" height="50px"
+                                class="card-artisit border border-2 border-white rounded-circle" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mb-2 fw-bold">Lori Hart</h5>
+                                <p class="text-secondary mb-2 fw-bold fs-14">100+ Arts</p>
+                                <button class="bg-purple btn-width fw-bold text-white rounded-pill p-2 border-0">
+                                    Follow +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4 col-md-3">
+                    <div>
+                        <div class="card border-0 shadow rounded-4">
+                            <img src="Images/bg-4.jpg" class="card-img-top p-2 position-relative rounded-4" alt="...">
+                            <img src="Images/author-4.jpg" height="50px"
+                                class="card-artisit border border-2 border-white rounded-circle" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mb-2 fw-bold">Clauda</h5>
+                                <p class="text-secondary mb-2 fw-bold fs-14">100+ Arts</p>
+                                <button class="bg-purple btn-width fw-bold text-white rounded-pill p-2 border-0">
+                                    Follow +
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- update -->
+
+    <section class="mt-5 mb-5">
+        <div class="container-xl">
+            <!-- heading -->
+            <div class="text-center mb-4">
+                <h2 class="text-center mb-3">
+                    <a href="" class="link-underline link-underline-opacity-0 text-dark fw-bold"> Our New Updates </a>
+                </h2>
+                <p class="text-center fs-7 text-secondary fw-bold text-wrap">
+                    Join our list to stay in the loop with our newest feature
+                    releases. <br> NFT drops, and tips and tricks for navigation OpenSea.
+                </p>
+            </div>
+            <!-- Main cards of Update -->
+            <div class="row justify-content-center">
+                <div class="col-6 mb-4 col-sm-4">
+                    <div>
+                        <div class="card rounded-4 shadow border-0">
+                            <div class="card-img-top p-3">
+                                <img src="Images/collection-lg-01.jpg" class="card-img-top rounded-4" alt="...">
+                            </div>
+                            <div class="card-body pb-2">
+                                <h6 class="fw-bold mb-2">
+                                    Art Design Here
+                                </h6>
+                                <p class="card-text mb-2 fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p class="card-text fs-14 text-secondary">may 16,2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4 col-sm-4">
+                    <div>
+                        <div class="card rounded-4 shadow border-0">
+                            <div class="card-img-top p-3">
+                                <img src="Images/collection-lg-02.jpg" class="card-img-top rounded-4" alt="...">
+                            </div>
+                            <div class="card-body pb-2">
+                                <h6 class="fw-bold mb-2">
+                                    Art Design Here
+                                </h6>
+                                <p class="card-text mb-2 fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p class="card-text fs-14 text-secondary">may 16,2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mb-4 col-sm-4">
+                    <div>
+                        <div class="card rounded-4 shadow border-0">
+                            <div class="card-img-top p-3">
+                                <img src="Images/collection-lg-03.jpg" class="card-img-top rounded-4" alt="...">
+                            </div>
+                            <div class="card-body pb-2">
+                                <h6 class="fw-bold mb-2">
+                                    Art Design Here
+                                </h6>
+                                <p class="card-text mb-2 fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p class="card-text fs-14 text-secondary">may 16,2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Subscribe -->
+
+    <section class="mt-10">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-6  row">
+                    <div class="col-6 d-none d-xl-block col6-3">
+                        <div class="card-3 postion-card3 rotate-2 border-6-3 rounded-4">
+                            <div class="row">
+                                <div class="d-flex col-9 ms-2 mt-2 align-items-center">
+                                    <img src="Images/author-1.jpg" height="45px" class="rounded-circle me-2" alt="">
+                                    <div>
+                                        <p class="fw-bold mb-0 text-dark">
+                                            Artist Of NFT
+                                        </p>
+                                        <p class="fs-7 fw-bold text-dark my-0">
+                                            Digital Artist
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-2 mt-3 ms-2 align-items-center">
+                                    <p class="bg-white position-relative p-3 bg-opacity-50 rounded-circle">
+                                        <i class="bi p-0 bi-heart-fill" style="color: red;"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body mt w-75 rounded-top-right text-bg-grey">
+                                <p class="card-text ms-2 fw-bold pt-3 mb-1">Arts Title NFT Here</p>
+                                <p class="card-rating pb-2 ms-2 yellow">
+                                    <i class="bi bi-star-fill yellow"></i> 4.0 <span
+                                        class="text-white ms-5">$40.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-none d-xl-block col6-4">
+                        <div class="card-4  position-card4 rotate-minus2 border-6-4 rounded-4">
+                            <div class="row">
+                                <div class="d-flex col-9 ms-2 mt-2 align-items-center">
+                                    <img src="Images/author-3.jpg" height="45px" class="rounded-circle me-2" alt="">
+                                    <div>
+                                        <p class="fw-bold mb-0 text-white">
+                                            Artist Of NFT
+                                        </p>
+                                        <p class="fs-7 fw-bold text-white my-0">
+                                            Digital Artist
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-2 mt-3 ms-2 align-items-center">
+                                    <p class="bg-white position-relative p-3 bg-opacity-50 rounded-circle">
+                                        <i class="bi p-0 bi-heart-fill" style="color: red;"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-body mt w-75 rounded-top-right text-bg-blue">
+                                <p class="card-text ms-2 fw-bold pt-3 mb-1">Arts Title NFT Here</p>
+                                <p class="card-rating pb-2 ms-2 yellow">
+                                    <i class="bi bi-star-fill yellow"></i> 4.0 <span
+                                        class="text-white ms-5">$40.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- heading -->
+
+
+                <div
+                    class="col-xl-6 col-lg-12 justify-content-center justify-content-xl-start d-flex align-items-center">
+                    <div class="">
+                        <h2 class="fw-bold d-none d-xl-block w-60 mb-3">
+                            Subscribe to get Fast News Update About Arts.🔥
+                        </h2>
+                        <h2 class="fw-bold text-center d-xl-none w-60 mb-4">
+                            Subscribe to get Fast News <br> Update About Arts.🔥
+                        </h2>
+                        <p class="fs-14 fw-bold mb-3 d-none d-xl-block text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae quisquam
+                            delectus!
+                        </p>
+                        <p class="fs-14 fw-bold mb-4 d-xl-none text-center text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias <br> repudiandae quisquam
+                            delectus!
+                        </p>
+                        <div class="d-none d-xl-block">
+                            <div
+                                class="col-md-10 col-lg-10 shadow rounded-pill border-1 border-light d-flex newsletter">
+                                <input type="email" class="form-control p-3 border-0 bg-transparent"
+                                    placeholder="@ Enter Your Email">
+                                <button type="submit"
+                                    class="border-0 text-white rounded-pill btn-height me-2 my-2 bg-purple px-4">Subscribe</button>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-12 col-lg-12 shadow d-xl-none rounded-pill border-1 border-light d-flex newsletter">
+                            <input type="email" class="form-control p-3 border-0 bg-transparent"
+                                placeholder="@ Enter Your Email">
+                            <button type="submit"
+                                class="border-0 text-white rounded-pill btn-height me-2 my-2 bg-purple px-4">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <section class="footer mt-10 bg-light">
+        <div class="container">
+            <footer class="row justify-content-between fw-bold align-items-center py-3 mt-3">
+                <p class="col-12 col-sm-12 col-md-6 col-lg-6 mb-0 text-muted">© 2021 Company, Inc. Crafted by Moiz
+                    Developer.</p>
+
+                <ul class="nav col-12 col-sm-12 col-md-6 col-lg-6 col fw-bold fs-5 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link me-3 px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link me-3 px-2 text-muted">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Art</a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+
+
+
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/279c9c1a29.js"></script>
+    <script src="Practice-6.js"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>
